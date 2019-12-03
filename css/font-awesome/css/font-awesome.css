@@ -189,6 +189,12 @@
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+   /* Font Awesome hatena bookmark */
+.fa-hatena:before { 
+  content: "B!"; 
+  font-family: Verdana; 
+  font-weight: bold
+}
 .fa-glass:before {
   content: "\f000";
 }
